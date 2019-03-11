@@ -19,6 +19,8 @@ public class MyCustomService extends Service {
         return super.onStartCommand(intent, flags, startId);
     }
 
+    //git hub test
+
     @Override
     public void onDestroy() {
         MainActivity.lnrLoading.setVisibility(View.INVISIBLE);
